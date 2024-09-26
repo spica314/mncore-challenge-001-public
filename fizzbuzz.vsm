@@ -1,0 +1,1286 @@
+imm i"0" $r300 $s300
+imm i"1" $r301 $s301
+imm i"2" $r302 $s302
+imm i"3" $r303 $s303
+imm i"4" $r304 $s304
+imm i"5" $r305 $s305
+imm i"6" $r306 $s306
+imm i"7" $r307 $s307
+imm i"8" $r308 $s308
+imm i"9" $r309 $s309
+imm i"10" $r310 $s310
+imm i"11" $r311 $s311
+imm i"12" $r312 $s312
+imm i"13" $r313 $s313
+imm i"14" $r314 $s314
+imm i"15" $r315 $s315
+imm i"16" $r316 $s316
+imm i"17" $r317 $s317
+imm i"18" $r318 $s318
+imm i"19" $r319 $s319
+imm i"20" $r320 $s320
+imm i"21" $r321 $s321
+imm i"22" $r322 $s322
+imm i"23" $r323 $s323
+imm i"24" $r324 $s324
+imm i"25" $r325 $s325
+imm i"26" $r326 $s326
+imm i"27" $r327 $s327
+imm i"28" $r328 $s328
+imm i"29" $r329 $s329
+imm i"30" $r330 $s330
+imm i"31" $r331 $s331
+imm i"32" $r332 $s332
+imm i"33" $r333 $s333
+imm i"34" $r334 $s334
+imm i"35" $r335 $s335
+imm i"36" $r336 $s336
+imm i"37" $r337 $s337
+imm i"38" $r338 $s338
+imm i"39" $r339 $s339
+imm i"40" $r340 $s340
+imm i"41" $r341 $s341
+imm i"42" $r342 $s342
+imm i"43" $r343 $s343
+imm i"44" $r344 $s344
+imm i"45" $r345 $s345
+imm i"46" $r346 $s346
+imm i"47" $r347 $s347
+imm i"48" $r348 $s348
+zero $s263/1000
+iand $peid $r307 $nowrite
+ilsl $aluf $r300 $nowrite
+iadd $s263 $aluf $s263/1000
+iand $mabid $r314 $nowrite
+ilsl $aluf $r305 $nowrite
+iadd $s263 $aluf $s263/1000
+iand $l1bid $r307 $nowrite
+ilsl $aluf $r303 $nowrite
+iadd $s263 $aluf $s263/1000
+iand $l2bid $r307 $nowrite
+ilsl $aluf $r309 $nowrite
+iadd $s263 $aluf $s263/1000
+ilsl $aluf $r303 $s264/1000
+iadd $aluf $r308 $s265/1000
+imm i"30" $nowrite
+isub $s264 $aluf $omr1/1000
+imm i"3" $s268/$imr1
+imm i"9" $s269/$imr1
+imm i"30" $nowrite
+isub $s264 $aluf $s270/$imr1
+imm i"63" $s271/$imr1
+zero $s272/$imr1
+ilsl $s270 $r300 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r303 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r309 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r315 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsr $aluf $r321 $s272/$imr1
+zero $r274/$imr1
+ilsl $s272 $r300 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r301 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r302 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r303 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r304 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r305 $nowrite
+iadd $r274 $aluf $r274/$imr1
+isub $s270 $aluf $s273/$imr1
+imm i"408" $nowrite
+isub $s264 $aluf $omr1/1000
+imm i"4" $s268/$imr1
+imm i"99" $s269/$imr1
+imm i"408" $nowrite
+isub $s264 $aluf $s270/$imr1
+imm i"71" $s271/$imr1
+zero $s272/$imr1
+ilsl $s270 $r301 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r305 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r306 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r308 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r309 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r312 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r313 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r314 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsr $aluf $r321 $s272/$imr1
+zero $r274/$imr1
+ilsl $s272 $r300 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r301 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r302 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r306 $nowrite
+iadd $r274 $aluf $r274/$imr1
+isub $s270 $aluf $s273/$imr1
+imm i"4668" $nowrite
+isub $s264 $aluf $omr1/1000
+imm i"5" $s268/$imr1
+imm i"999" $s269/$imr1
+imm i"4668" $nowrite
+isub $s264 $aluf $s270/$imr1
+imm i"79" $s271/$imr1
+zero $s272/$imr1
+ilsl $s270 $r300 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r301 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r304 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r305 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r307 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r308 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r309 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r310 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r313 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsl $s270 $r314 $nowrite
+iadd $s272 $aluf $s272/$imr1
+ilsr $aluf $r321 $s272/$imr1
+zero $r274/$imr1
+ilsl $s272 $r300 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r301 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r302 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r303 $nowrite
+iadd $r274 $aluf $r274/$imr1
+ilsl $s272 $r306 $nowrite
+iadd $r274 $aluf $r274/$imr1
+isub $s270 $aluf $s273/$imr1
+zero $s266/1000
+ilsl $s272 $r300 $nowrite
+iadd $s266 $aluf $s266/1000
+ilsl $s272 $r301 $nowrite
+iadd $s266 $aluf $s266/1000
+ilsl $s272 $r302 $nowrite
+iadd $s266 $aluf $s266/1000
+ilsl $s272 $r303 $nowrite
+iadd $s266 $aluf $s266/1000
+iadd $s269 $aluf $s266/1000
+d getf $s269 1
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s305 $r275/1000
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s305 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s309 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s305 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s305 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s305 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s268 $r275/$imr1
+nop
+isub $s273 $r275 $omr1/1000
+isub $s273 $r275 $s276/$imr1
+isub $r316 $aluf $s267/$imr1
+iadd $s266 $r301 $s266/$imr1
+iadd $r275 $s305 $r275/$imr1
+nop
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r302 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r306 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r310 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r314 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r282/1000
+ilsl $s281 $r301 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+isub $s266 $aluf $s280/1000
+ipassa $s281 $r284/1000
+zero $r282/1000
+ilsl $s281 $r300 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r302 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r306 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r307 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r310 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r311 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r314 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r315 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsr $aluf $r319 $r282/1000
+ipassa $aluf $s281/1000
+zero $r282/1000
+ilsl $s281 $r301 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+isub $r284 $aluf $s279/1000
+ipassa $s281 $r284/1000
+zero $r282/1000
+ilsl $s281 $r300 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r302 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r306 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r307 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r310 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r311 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r314 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r315 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsr $aluf $r319 $r282/1000
+ipassa $aluf $s281/1000
+zero $r282/1000
+ilsl $s281 $r301 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+isub $r284 $aluf $s278/1000
+ipassa $s281 $r284/1000
+zero $r282/1000
+ilsl $s281 $r300 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r302 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r306 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r307 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r310 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r311 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r314 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r315 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsr $aluf $r319 $r282/1000
+ipassa $aluf $s281/1000
+zero $r282/1000
+ilsl $s281 $r301 $nowrite
+iadd $r282 $aluf $r282/1000
+ilsl $s281 $r303 $nowrite
+iadd $r282 $aluf $r282/1000
+isub $r284 $aluf $s277/1000
+imm i"0" $r283
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r303 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt4/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt5/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt6/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt7/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt8/$imr1
+iadd $s267 $r309 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r305 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r309 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r313 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r317 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r304 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r308 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r312 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r316 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+nop
+nop
+ior $r283 $r283 $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+nop
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s277 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s277 $mt0/$imr2
+iadd $r348 $s278 $mt1/$imr2
+iadd $r348 $s279 $mt2/$imr2
+iadd $r348 $s280 $mt3/$imr2
+ipassa $r310 $mt4/$imr2
+iadd $s267 $r305 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s278 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s278 $mt0/$imr2
+iadd $r348 $s279 $mt1/$imr2
+iadd $r348 $s280 $mt2/$imr2
+ipassa $r310 $mt3/$imr2
+iadd $s267 $r304 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s279 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s279 $mt0/$imr2
+iadd $r348 $s280 $mt1/$imr2
+ipassa $r310 $mt2/$imr2
+iadd $s267 $r303 $s267/$imr2
+imm i"1" $r283/$imr2
+iadd $s266 $r301 $s266/1000
+iadd $s280 $r301 $s280/1000
+imm i"10" $nowrite
+isub $s280 $aluf $omr1/1000
+iadd $s279 $r301 $s279/$imr1
+ipassa $r300 $s280/$imr1
+imm i"10" $nowrite
+isub $s279 $aluf $omr1/1000
+iadd $s278 $r301 $s278/$imr1
+ipassa $r300 $s279/$imr1
+imm i"10" $nowrite
+isub $s278 $aluf $omr1/1000
+iadd $s277 $r301 $s277/$imr1
+ipassa $r300 $s278/$imr1
+imm i"0" $r283
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r303 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt4/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt5/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt6/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt7/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt8/$imr1
+iadd $s267 $r309 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r305 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r309 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r313 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r317 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r304 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r308 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r312 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r316 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+nop
+nop
+ior $r283 $r283 $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+nop
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s277 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s277 $mt0/$imr2
+iadd $r348 $s278 $mt1/$imr2
+iadd $r348 $s279 $mt2/$imr2
+iadd $r348 $s280 $mt3/$imr2
+ipassa $r310 $mt4/$imr2
+iadd $s267 $r305 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s278 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s278 $mt0/$imr2
+iadd $r348 $s279 $mt1/$imr2
+iadd $r348 $s280 $mt2/$imr2
+ipassa $r310 $mt3/$imr2
+iadd $s267 $r304 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s279 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s279 $mt0/$imr2
+iadd $r348 $s280 $mt1/$imr2
+ipassa $r310 $mt2/$imr2
+iadd $s267 $r303 $s267/$imr2
+imm i"1" $r283/$imr2
+iadd $s266 $r301 $s266/1000
+iadd $s280 $r301 $s280/1000
+imm i"10" $nowrite
+isub $s280 $aluf $omr1/1000
+iadd $s279 $r301 $s279/$imr1
+ipassa $r300 $s280/$imr1
+imm i"10" $nowrite
+isub $s279 $aluf $omr1/1000
+iadd $s278 $r301 $s278/$imr1
+ipassa $r300 $s279/$imr1
+imm i"10" $nowrite
+isub $s278 $aluf $omr1/1000
+iadd $s277 $r301 $s277/$imr1
+ipassa $r300 $s278/$imr1
+imm i"0" $r283
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r303 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt4/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt5/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt6/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt7/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt8/$imr1
+iadd $s267 $r309 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r305 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r309 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r313 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r317 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r304 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r308 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r312 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r316 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+nop
+nop
+ior $r283 $r283 $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+nop
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s277 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s277 $mt0/$imr2
+iadd $r348 $s278 $mt1/$imr2
+iadd $r348 $s279 $mt2/$imr2
+iadd $r348 $s280 $mt3/$imr2
+ipassa $r310 $mt4/$imr2
+iadd $s267 $r305 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s278 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s278 $mt0/$imr2
+iadd $r348 $s279 $mt1/$imr2
+iadd $r348 $s280 $mt2/$imr2
+ipassa $r310 $mt3/$imr2
+iadd $s267 $r304 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s279 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s279 $mt0/$imr2
+iadd $r348 $s280 $mt1/$imr2
+ipassa $r310 $mt2/$imr2
+iadd $s267 $r303 $s267/$imr2
+imm i"1" $r283/$imr2
+iadd $s266 $r301 $s266/1000
+iadd $s280 $r301 $s280/1000
+imm i"10" $nowrite
+isub $s280 $aluf $omr1/1000
+iadd $s279 $r301 $s279/$imr1
+ipassa $r300 $s280/$imr1
+imm i"10" $nowrite
+isub $s279 $aluf $omr1/1000
+iadd $s278 $r301 $s278/$imr1
+ipassa $r300 $s279/$imr1
+imm i"10" $nowrite
+isub $s278 $aluf $omr1/1000
+iadd $s277 $r301 $s277/$imr1
+ipassa $r300 $s278/$imr1
+imm i"0" $r283
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r303 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt4/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt5/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt6/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt7/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt8/$imr1
+iadd $s267 $r309 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r300 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r305 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r309 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r313 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r317 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r301 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"70" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"105" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+zero $s281/1000
+ilsl $s266 $r301 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r303 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r304 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r307 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r308 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r311 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r312 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r315 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsl $s266 $r316 $nowrite
+iadd $s281 $aluf $s281/1000
+ilsr $aluf $r319 $s281/1000
+zero $r274/1000
+ilsl $s281 $r300 $nowrite
+iadd $r274 $aluf $r274/1000
+ilsl $s281 $r302 $nowrite
+iadd $r274 $aluf $r274/1000
+isub $s266 $aluf $s281/1000
+iadd $aluf $r283 $r274/1000
+ior $aluf $aluf $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+imm i"66" $nowrite
+ipassa $aluf $mt0/$imr1
+imm i"117" $nowrite
+ipassa $aluf $mt1/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt2/$imr1
+imm i"122" $nowrite
+ipassa $aluf $mt3/$imr1
+imm i"10" $nowrite
+ipassa $aluf $mt4/$imr1
+iadd $s267 $r305 $s267/$imr1
+imm i"1" $r283/$imr1
+nop
+nop
+ior $r283 $r283 $omr1
+ipassa $s267 $r401/$imr1
+nop
+nop
+lpassa $lr400 $lt/$imr1
+nop
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s277 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s277 $mt0/$imr2
+iadd $r348 $s278 $mt1/$imr2
+iadd $r348 $s279 $mt2/$imr2
+iadd $r348 $s280 $mt3/$imr2
+ipassa $r310 $mt4/$imr2
+iadd $s267 $r305 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s278 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s278 $mt0/$imr2
+iadd $r348 $s279 $mt1/$imr2
+iadd $r348 $s280 $mt2/$imr2
+ipassa $r310 $mt3/$imr2
+iadd $s267 $r304 $s267/$imr2
+imm i"1" $r283/$imr2
+nop
+ipassa $r283 $r285/1000
+isub $r300 $s279 $omr2/1000
+imm i"1" $nowrite
+ipassa $aluf $r285/$imr2
+nop
+ior $r285 $r285 $omr2/1000
+iadd $r348 $s279 $mt0/$imr2
+iadd $r348 $s280 $mt1/$imr2
+ipassa $r310 $mt2/$imr2
+iadd $s267 $r303 $s267/$imr2
+imm i"1" $r283/$imr2
+iadd $s266 $r301 $s266/1000
+iadd $s280 $r301 $s280/1000
+imm i"10" $nowrite
+isub $s280 $aluf $omr1/1000
+iadd $s279 $r301 $s279/$imr1
+ipassa $r300 $s280/$imr1
+imm i"10" $nowrite
+isub $s279 $aluf $omr1/1000
+iadd $s278 $r301 $s278/$imr1
+ipassa $r300 $s279/$imr1
+imm i"10" $nowrite
+isub $s278 $aluf $omr1/1000
+iadd $s277 $r301 $s277/$imr1
+ipassa $r300 $s278/$imr1
+isub $r300 $s263 $s281/1000
+ior $aluf $aluf $omr1
+imm i"49" $nowrite
+ipassa $aluf $m16/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m17/$imr1
+imm i"50" $nowrite
+ipassa $aluf $m18/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m19/$imr1
+imm i"70" $nowrite
+ipassa $aluf $m20/$imr1
+imm i"105" $nowrite
+ipassa $aluf $m21/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m22/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m23/$imr1
+isub $r301 $s263 $s281/1000
+ior $aluf $aluf $omr1
+imm i"10" $nowrite
+ipassa $aluf $m16/$imr1
+imm i"52" $nowrite
+ipassa $aluf $m17/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m18/$imr1
+imm i"66" $nowrite
+ipassa $aluf $m19/$imr1
+imm i"117" $nowrite
+ipassa $aluf $m20/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m21/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m22/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m23/$imr1
+isub $r302 $s263 $s281/1000
+ior $aluf $aluf $omr1
+imm i"70" $nowrite
+ipassa $aluf $m16/$imr1
+imm i"105" $nowrite
+ipassa $aluf $m17/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m18/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m19/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m20/$imr1
+imm i"55" $nowrite
+ipassa $aluf $m21/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m22/$imr1
+imm i"56" $nowrite
+ipassa $aluf $m23/$imr1
+isub $r303 $s263 $s281/1000
+ior $aluf $aluf $omr1
+imm i"10" $nowrite
+ipassa $aluf $m16/$imr1
+imm i"70" $nowrite
+ipassa $aluf $m17/$imr1
+imm i"105" $nowrite
+ipassa $aluf $m18/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m19/$imr1
+imm i"122" $nowrite
+ipassa $aluf $m20/$imr1
+imm i"10" $nowrite
+ipassa $aluf $m21/$imr1
+imm i"66" $nowrite
+ipassa $aluf $m22/$imr1
+imm i"117" $nowrite
+ipassa $aluf $m23/$imr1
+nop
+nop
+ilsl $m16 $r324 $nowrite
+iadd $r0 $aluf $r0/1000
+ilsl $m17 $r316 $nowrite
+iadd $r0 $aluf $r0/1000
+ilsl $m18 $r308 $nowrite
+iadd $r0 $aluf $r0/1000
+ilsl $m19 $r300 $nowrite
+iadd $r0 $aluf $r0/1000
+ilsl $m20 $r324 $nowrite
+iadd $r1 $aluf $r1/1000
+ilsl $m21 $r316 $nowrite
+iadd $r1 $aluf $r1/1000
+ilsl $m22 $r308 $nowrite
+iadd $r1 $aluf $r1/1000
+ilsl $m23 $r300 $nowrite
+iadd $r1 $aluf $r1/1000
+nop
+nop
+l1bmd $lr0 $lb0
+nop
+nop
+l2bmd $lb0 $lc0
+l2bmd $lb32 $lc256
+nop
+nop
+mvp/n512 $lc0@0.0 $d0@0
+mvp/n512 $lc0@0.1 $d512@0
+mvp/n512 $lc0@1.0 $d1024@0
+mvp/n512 $lc0@1.1 $d1536@0
+mvp/n512 $lc0@2.0 $d2048@0
+mvp/n512 $lc0@2.1 $d2560@0
+mvp/n512 $lc0@3.0 $d3072@0
+mvp/n512 $lc0@3.1 $d3584@0
+
